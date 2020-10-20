@@ -1,0 +1,79 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+.fondo {
+  height: 79.5vh;
+  background-image: url(./imagenes/codigo2.jpg);
+  background-size: cover;
+}
+h1 {
+  font-size: 80px;
+  text-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.titulo {
+  border-radius: 10px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+}
+.imagen1 {
+  height: 100px;
+  width: auto;
+}
+.img-fluid {
+  max-width: 100%;
+  height: auto;
+}
+
+.redondo {
+  border-radius: 50%;
+}
+
+.fantasma {
+  background-color: ghostwhite;
+}
+
+.skills {
+  background-color: #fafafa;
+  border: 1px #dddfe5 solid;
+  border-radius: 10px;
+  width: 260px;
+  height: 229px;
+  margin: 10px;
+  padding: 30px;
+  color: #2e2e31;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.imgSkills {
+  margin: 20px 60px 20px 60px;
+}
+.tituloSkills {
+  font-weight: 700;
+  font-size: 20px;
+}
+html {
+  scroll-behavior: smooth;
+}
+.bordes {
+  border-radius: 20px;
+  -webkit-border-radius: 20px;
+  -moz-border-radius: 20px;
+  -ms-border-radius: 20px;
+  -o-border-radius: 20px;
+}
+
+.centro {
+  display: flex;
+}
+.texto {
+  display: flex;
+  text-align: center;
+  justify-content: center;
+}
+.icon {
+  padding: 5px;
+  font-size: 35px;
+}
